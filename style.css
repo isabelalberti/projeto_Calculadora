@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: blanchedalmond !important;
+}
+
+
+.baseCalculadora, .visor {
+    border-style: double;
+    margin-top: 12%;
+    border-radius: 4px;
+}
+
+.col-md-2{
+    background-color: rgba(0, 0, 0, 0.768);
+}
+
+button{
+    border: 1px solid;
+}
+
+    
