@@ -6,7 +6,6 @@
 
 body{
   width: 100%;
-  height: 100%;
   background: linear-gradient(to right,  #cc2407, rgba(239, 154, 27, 0.89))!important;
 }
 
@@ -16,9 +15,11 @@ body{
   border-radius: 4px;
   margin: auto;
   margin-top: 10%;
+  background-color: rgba(125, 118, 118, 0.613);
+  padding: 10px 75px;
 }
 
-.col-md-2 {
+.col-md-3 {
   background-color: rgba(0, 0, 0, 0.93);
 }
 
@@ -28,6 +29,7 @@ font-size: 2rem;
 border: none;
 background-color: rgba(125, 118, 118, 0.613);
 color: #eee;
+padding: 10px;
 }
 
 button:hover {
