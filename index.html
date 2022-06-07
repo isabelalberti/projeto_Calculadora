@@ -12,57 +12,53 @@
 </head>
 
 <body>
-    <div class="calculadora container">
-        <div class="row">
-            <div class="col-md-3 baseCalculadora">
+    <div class="container">
+        <div class="calculadora">
 
-                <section class="visor mx-2 my-2">
-                    <spam id="visor">visorççççççççççççpj</spam>
-                </section>
+            <div class="visor">
+                <div id="visor-anterior"></div>
+                <div id="visor-atual"></div>
+            </div>
 
-                <section class="botoesIniciais mt-2 d-flex justify-content-around ">
-                    <button data-play>On</button>
-                    <button data-all-clear>AC</button>
-                    <button data-delete>DEL</button>
-                </section>
-              
-                <section class="botoesDois mt-1 d-flex justify-content-around">
-                    <button data-play>Off</button>
-                    <button data-operator="operator">√</button>
-                    <button data-operator="operator">%</button>
-                    <button data-operator class="operator">÷</button>
-                </section>
+            <button data-play>On/Off</button>
+            <button data-all-clear>CE</button>
+            <button data-delete>DEL</button>
 
-                <section class="botoesTres mt-1 d-flex justify-content-around">
-                     <button data-number>7</button>
-                     <button data-number>8</button>
-                     <button data-number>9</button>
-                    <button data-operator class="operator">*</button>
-                </section>
+            <button data-operator="operator">√</button>
+            <button data-operator="operator">%</button>
+            <button data-operator class="operator">÷</button>
 
-                <section class="botoesQuatro mt-1 d-flex justify-content-around ">
-                    <button data-number>4</button>
-                     <button data-number>5</button>
-                     <button data-number>6</button>
-                    <button data-operator class="operator">-</button>
-                </section>
-                
-                 <section class="botoesCinco mt-1 d-flex justify-content-around">
-                     <button data-number>1</button>
-                    <button data-number>2</button>
-                    <button data-number>3</button>
-                    <button data-operator class="operator">+</button>
-                </section>
 
-                <section class="botoesFinais mb-3 mt-1 d-flex justify-content-around">
+            <div class="numbers">
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operator class="operator">*</button>
+
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operator class="operator">-</button>
+
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operator class="operator">+</button>
+
+                <div class="botoesfinais">
                     <button data-number>0</button>
-                     <button data-number>.</button>
-                      <button data-equals class="operator bg-danger p-3">=</button>
-               
+                    <button data-number>.</button>
+                    <button data-equals class="operator bg-danger p-3">=</button>
+                </div>
+            </div>
 
-            </section></div>
+         
         </div>
     </div>
+
+
+
+
 
 
 

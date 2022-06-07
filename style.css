@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fraunces', Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
@@ -9,27 +9,60 @@ body{
   background: linear-gradient(to right,  #cc2407, rgba(239, 154, 27, 0.89))!important;
 }
 
-.baseCalculadora,
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 120px repeat(3, 50px);
+    background-color: #0e0e0e;
+    padding: 15px;
+    padding-bottom: 250px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px #1f280852;
+}
+
 .visor {
-  border-style: double;
-  border-radius: 4px;
-  margin: auto;
-  margin-top: 10%;
-  background-color: rgba(125, 118, 118, 0.613);
-  padding: 10px 75px;
+    grid-column: 1 / -1;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #363636;
+    border-radius: 10px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
 }
 
-.col-md-3 {
-  background-color: rgba(0, 0, 0, 0.93);
+.visor-anterior{
+    font-size: 1rem;
 }
 
-button{
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 120px repeat(4, 50px);
+}
+
+.botoesfinais{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+
+button, section{
 cursor: pointer;
-font-size: 2rem;
 border: none;
 background-color: rgba(125, 118, 118, 0.613);
 color: #eee;
 padding: 10px;
+margin: 5px;
 }
 
 button:hover {
