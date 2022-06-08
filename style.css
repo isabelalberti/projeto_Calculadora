@@ -22,7 +22,7 @@ body{
     grid-template-rows: 120px repeat(3, 50px);
     background-color: #0e0e0e;
     padding: 15px;
-    padding-bottom: 250px;
+    padding-bottom: 180px;
     border-radius: 16px;
     box-shadow: 5px 5px 5px 5px #1f280852;
 }
@@ -48,7 +48,6 @@ body{
 .numbers{
     display: grid;
     grid-template-columns: repeat(4, 75px);
-    grid-template-rows: 120px repeat(4, 50px);
 }
 
 .botoesfinais{
@@ -63,7 +62,7 @@ background-color: rgba(125, 118, 118, 0.613);
 color: #eee;
 border-radius: 3px !important;
 margin: 0.1rem !important;
-
+padding:10px;
 }
 
 button:hover {
